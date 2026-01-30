@@ -5,4 +5,4 @@
 
 
 ## 💖 Ce este inauntru? 💖
-[Link to site]((https://AndreiRoSD.github.io/valentine/))
+[Link to site](https://AndreiRoSD.github.io/valentine/)
