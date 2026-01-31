@@ -10,7 +10,17 @@ export default function Page() {
   const handleNoClick = () => {
     setNoCount(noCount + 1);
   };
-
+    const images = [
+  "IMG_2445.jpeg",
+  "IMG_2428.jpeg",
+  "IMG_2444.jpeg",
+  "IMG_2430.jpeg",
+  "IMG_2447.jpeg",
+  "IMG_2450.jpeg",
+  "IMG_2449.jpeg",
+  "IMG_2446.jpeg",
+  // Adaugă aici restul pozelor tale între ghilimele și cu virgulă
+];
   const getNoButtonText = () => {
     const phrases = [
       "Nu",
@@ -56,10 +66,9 @@ export default function Page() {
             src={lovesvg2}
             className="fixed bottom-16 -z-10 animate-pulse md:right-24 right-10 md:w-40 w-32"
           />
-          <img
-            className="h-[230px] rounded-lg shadow-lg"
-            src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
-          />
+          <img className="h-[230px] rounded-lg shadow-lg"
+            src={images[Math.min(noCount, images.length - 1)]} />
+
           <h1 className="text-4xl md:text-6xl my-4 text-center">
             Vrei sa fii al meu Valentine?🫶🏽❤️‍🔥
           </h1>
