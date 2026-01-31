@@ -24,6 +24,7 @@ export default function Page() {
   "IMG_2457.jpeg",
   "IMG_2461.jpeg",
   "IMG_2462.jpeg",
+  "IMG_2454.jpeg",
   // Adaugă aici restul pozelor tale între ghilimele și cu virgulă
 ];
   const getNoButtonText = () => {
