@@ -8,8 +8,10 @@ export default function Page() {
   const yesButtonSize = noCount * 20 + 16;
 
   const handleNoClick = () => {
-    setNoCount(noCount + 1);
-  };
+  setNoCount(noCount + 1);
+  const audio = document.getElementById('bg-music');
+  if (audio) audio.play();
+};
     const images = [
   "IMG_2445.jpeg",
   "IMG_2428.jpeg",
@@ -96,7 +98,7 @@ export default function Page() {
         </>
       )}
       <Footer />
-      <audio src="./sensdragostei.mp3" autoPlay loop /> 
+       <audio id="bg-music" src="./sensdragostei.mp3" loop />
     </div>
   );
 }
