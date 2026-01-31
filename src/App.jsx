@@ -96,6 +96,7 @@ export default function Page() {
         </>
       )}
       <Footer />
+      <audio src="/sensdragostei.mp3" autoPlay loop /> 
     </div>
   );
 }
